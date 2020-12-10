@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kt</groupId>
+    <artifactId>kt-dependencies</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <developers>
+        <developer>
+            <name>Javis</name>
+            <email>javischen9548@foxmail.com</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <kt.framework.version>1.0.0-SNAPSHOT</kt.framework.version>
+        <kt.component.version>1.0.0-SNAPSHOT</kt.component.version>
+        <fastjson.version>1.2.56</fastjson.version>
+        <mybatisplus.version>3.4.0</mybatisplus.version>
+        <p6spy.version>3.8.1</p6spy.version>
+        <druid.version>1.1.10</druid.version>
+        <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
+        <spring-boot.version>2.3.5.RELEASE</spring-boot.version>
+        <easyexcel.version>2.2.6</easyexcel.version>
+        <hutool.version>4.6.1</hutool.version>
+
+        <maven-url></maven-url>
+        <snapshots-url>${maven-url}sr-kt-snapshots/</snapshots-url>
+        <releases-url>${maven-url}sr-kt-releases/</releases-url>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>p6spy</groupId>
+                <artifactId>p6spy</artifactId>
+                <version>${p6spy.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatisplus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>easyexcel</artifactId>
+                <version>${easyexcel.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- components -->
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-exception</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-dto</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-toolkit</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-validator</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-catchlog-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
