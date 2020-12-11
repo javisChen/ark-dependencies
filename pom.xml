@@ -107,12 +107,12 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
-                <artifactId>kt-component-catchlog-boot-starter</artifactId>
+                <artifactId>kt-component-logger-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
-                <artifactId>kt-component-demo-boot-starter</artifactId>
+                <artifactId>kt-component-demo-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
 
