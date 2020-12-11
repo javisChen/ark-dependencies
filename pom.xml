@@ -27,6 +27,7 @@
         <spring-boot.version>2.3.5.RELEASE</spring-boot.version>
         <easyexcel.version>2.2.6</easyexcel.version>
         <hutool.version>4.6.1</hutool.version>
+        <junit.version>4.12</junit.version>
 
         <maven-url></maven-url>
         <snapshots-url>${maven-url}sr-kt-snapshots/</snapshots-url>
@@ -77,6 +78,12 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+
             <!-- components -->
             <dependency>
                 <groupId>com.kt</groupId>
@@ -100,7 +107,12 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
-                <artifactId>kt-component-catchlog-starter</artifactId>
+                <artifactId>kt-component-catchlog-boot-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-demo-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
 
