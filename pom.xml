@@ -34,7 +34,6 @@
         <maven-url></maven-url>
         <snapshots-url>${maven-url}sr-kt-snapshots/</snapshots-url>
         <releases-url>${maven-url}sr-kt-releases/</releases-url>
-
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
