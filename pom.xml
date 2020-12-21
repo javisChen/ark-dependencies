@@ -22,7 +22,7 @@
         <fastjson.version>1.2.56</fastjson.version>
         <mybatisplus.version>3.4.1</mybatisplus.version>
         <p6spy.version>3.8.1</p6spy.version>
-        <druid.version>1.1.10</druid.version>
+        <druid.version>1.2.3</druid.version>
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
         <spring-boot.version>2.3.5.RELEASE</spring-boot.version>
         <easyexcel.version>2.2.6</easyexcel.version>
@@ -101,6 +101,12 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
             </dependency>
 
             <!-- components -->
