@@ -19,6 +19,7 @@
     <properties>
         <kt.framework.version>1.0.0-SNAPSHOT</kt.framework.version>
         <kt.component.version>1.0.0-SNAPSHOT</kt.component.version>
+        <kt.upms.auth.version>1.0.0-SNAPSHOT</kt.upms.auth.version>
         <fastjson.version>1.2.56</fastjson.version>
         <mybatisplus.version>3.4.1</mybatisplus.version>
         <p6spy.version>3.8.1</p6spy.version>
@@ -158,6 +159,12 @@
                 <groupId>com.kt</groupId>
                 <artifactId>kt-component-redis-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-upms-auth-security</artifactId>
+                <version>${kt.upms.auth.version}</version>
             </dependency>
 
         </dependencies>
