@@ -162,8 +162,8 @@
             </dependency>
 
             <dependency>
-                <groupId>com.kt</groupId>
-                <artifactId>kt-iam-auth-security</artifactId>
+                <groupId>com.kt.cloud</groupId>
+                <artifactId>kt-cloud-iam-auth-security</artifactId>
                 <version>${kt.iam.auth.version}</version>
             </dependency>
 
