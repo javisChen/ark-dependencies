@@ -133,6 +133,11 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
+                <artifactId>kt-component-common</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
                 <artifactId>kt-component-validator</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
