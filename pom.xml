@@ -25,13 +25,16 @@
         <mybatisplus.generator.version>3.4.1</mybatisplus.generator.version>
         <p6spy.version>3.8.1</p6spy.version>
         <druid.version>1.2.3</druid.version>
-        <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
-        <spring-boot.version>2.5.0</spring-boot.version>
-        <easyexcel.version>2.2.6</easyexcel.version>
+        <easyexcel.version>2.2.6.RELEASE</easyexcel.version>
         <hutool.version>5.5.2</hutool.version>
         <cglib.version>3.3.0</cglib.version>
         <junit.version>4.12</junit.version>
         <validation.api.version>2.0.1.Final</validation.api.version>
+
+        <!-- SpringCloud -->
+        <spring-boot.version>2.4.2</spring-boot.version>
+        <spring.cloud.alibaba.version>2021.1</spring.cloud.alibaba.version>
+        <spring-cloud.version>2020.0.0</spring-cloud.version>
 
         <maven-url></maven-url>
         <snapshots-url>${maven-url}sr-kt-snapshots/</snapshots-url>
@@ -43,10 +46,27 @@
 
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring.cloud.alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
