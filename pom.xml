@@ -36,6 +36,9 @@
         <spring.cloud.alibaba.version>2021.1</spring.cloud.alibaba.version>
         <spring-cloud.version>2020.0.0</spring-cloud.version>
 
+        <!-- mq -->
+        <rocketmq-spring-boot-starter.version>2.2.0</rocketmq-spring-boot-starter.version>
+
         <maven-url></maven-url>
         <snapshots-url>${maven-url}sr-kt-snapshots/</snapshots-url>
         <releases-url>${maven-url}sr-kt-releases/</releases-url>
@@ -69,6 +72,13 @@
                 <version>${spring.cloud.alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq-spring-boot-starter.version}</version>
             </dependency>
 
             <dependency>
