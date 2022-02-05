@@ -20,22 +20,21 @@
         <kt.framework.version>1.0.0-SNAPSHOT</kt.framework.version>
         <kt.component.version>1.0.0-SNAPSHOT</kt.component.version>
         <kt.iam.auth.version>1.0.0-SNAPSHOT</kt.iam.auth.version>
-        <fastjson.version>1.2.56</fastjson.version>
-        <mybatisplus.version>3.4.2</mybatisplus.version>
-        <mybatisplus.generator.version>3.4.1</mybatisplus.generator.version>
+        <fastjson.version>1.2.76</fastjson.version>
+        <mybatisplus.version>3.4.3.4</mybatisplus.version>
+        <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
         <p6spy.version>3.8.1</p6spy.version>
-        <druid.version>1.2.3</druid.version>
-        <easyexcel.version>2.2.6.RELEASE</easyexcel.version>
-        <hutool.version>5.5.2</hutool.version>
-        <retrofit.verison>2.9.0</retrofit.verison>
+        <druid.version>1.2.8</druid.version>
+        <easyexcel.version>3.0.5</easyexcel.version>
+        <hutool.version>5.7.18</hutool.version>
         <cglib.version>3.3.0</cglib.version>
         <junit.version>4.12</junit.version>
         <validation.api.version>2.0.1.Final</validation.api.version>
 
         <!-- SpringCloud -->
-        <spring-boot.version>2.4.2</spring-boot.version>
-        <spring.cloud.alibaba.version>2021.1</spring.cloud.alibaba.version>
-        <spring-cloud.version>2020.0.0</spring-cloud.version>
+        <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
+        <spring.cloud.alibaba.version>2.2.7.RELEASE</spring.cloud.alibaba.version>
+        <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
 
         <!-- mq -->
         <rocketmq-spring-boot-starter.version>2.2.0</rocketmq-spring-boot-starter.version>
@@ -154,7 +153,17 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
+                <artifactId>kt-component-cache</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
                 <artifactId>kt-component-dto</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-config</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
             <dependency>
@@ -165,6 +174,21 @@
             <dependency>
                 <groupId>com.kt</groupId>
                 <artifactId>kt-component-common</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-sharding-jdbc-spring-boot-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-microservice-core</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-microservice-rpc-feign</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
             <dependency>
@@ -200,6 +224,12 @@
             <dependency>
                 <groupId>com.kt</groupId>
                 <artifactId>kt-component-redis-spring-boot-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-context-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
 
