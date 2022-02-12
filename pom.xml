@@ -213,6 +213,11 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
+                <artifactId>kt-component-common-spring-boot-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
                 <artifactId>kt-component-web-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
