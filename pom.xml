@@ -168,11 +168,6 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
-                <artifactId>kt-component-toolkit</artifactId>
-                <version>${kt.component.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.kt</groupId>
                 <artifactId>kt-component-common</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
