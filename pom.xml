@@ -173,6 +173,11 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
+                <artifactId>kt-component-oss</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
                 <artifactId>kt-component-sharding-jdbc-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
