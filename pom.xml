@@ -178,6 +178,16 @@
             </dependency>
             <dependency>
                 <groupId>com.kt</groupId>
+                <artifactId>kt-component-oss-alicloud</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
+                <artifactId>kt-component-oss-minio</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt</groupId>
                 <artifactId>kt-component-sharding-jdbc-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
@@ -236,12 +246,6 @@
                 <groupId>com.kt</groupId>
                 <artifactId>kt-component-context-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.kt.cloud</groupId>
-                <artifactId>kt-cloud-iam-auth-security</artifactId>
-                <version>${kt.iam.auth.version}</version>
             </dependency>
 
             <dependency>
