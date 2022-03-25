@@ -274,9 +274,16 @@
                 <artifactId>kt-component-db-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+
             <dependency>
-                <groupId>com.kt</groupId>
-                <artifactId>kt-component-redis-spring-boot-starter</artifactId>
+                <groupId>com.kt.cache</groupId>
+                <artifactId>kt-component-cache-redis-spring-boot-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.kt.cache</groupId>
+                <artifactId>kt-component-cache-redis</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
 
