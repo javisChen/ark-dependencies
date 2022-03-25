@@ -38,7 +38,7 @@
         <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
 
         <!-- mq -->
-        <rocketmq-spring-boot-starter.version>2.2.0</rocketmq-spring-boot-starter.version>
+        <rocketmq-spring-boot-starter.version>2.2.1</rocketmq-spring-boot-starter.version>
 
         <maven-url></maven-url>
         <snapshots-url>${maven-url}sr-kt-snapshots/</snapshots-url>
@@ -75,7 +75,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
 
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
