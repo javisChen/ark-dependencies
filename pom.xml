@@ -268,9 +268,16 @@
                 <artifactId>kt-component-web-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+
             <dependency>
-                <groupId>com.kt</groupId>
-                <artifactId>kt-component-db-spring-boot-starter</artifactId>
+                <groupId>com.kt.orm</groupId>
+                <artifactId>kt-component-orm-mybatis-spring-boot-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.kt.orm</groupId>
+                <artifactId>kt-component-orm-mybatis</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
 
