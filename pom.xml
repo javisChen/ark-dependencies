@@ -17,9 +17,7 @@
     </developers>
 
     <properties>
-        <kt.framework.version>1.0.0-SNAPSHOT</kt.framework.version>
         <kt.component.version>1.0.0-SNAPSHOT</kt.component.version>
-        <kt.iam.auth.version>1.0.0-SNAPSHOT</kt.iam.auth.version>
         <fastjson.version>1.2.76</fastjson.version>
         <mybatisplus.version>3.4.3.4</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
@@ -163,13 +161,13 @@
                 <version>${druid.version}</version>
             </dependency>
 
-            <!-- components -->
             <dependency>
-                <groupId>com.kt</groupId>
-                <artifactId>kt-component-exception</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.squareup.retrofit2</groupId>
+                <artifactId>retrofit</artifactId>
+                <version>2.9.0</version>
             </dependency>
 
+            <!-- components -->
             <dependency>
                 <groupId>com.kt.dto</groupId>
                 <artifactId>kt-component-dto</artifactId>
@@ -230,42 +228,69 @@
                 <artifactId>kt-component-microservice-rpc-feign</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+
+            <!-- 校验组件 -->
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.kt.validator</groupId>
                 <artifactId>kt-component-validator</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+            <!-- 校验组件 -->
+
+            <!-- 日志组件 -->
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.kt.logger</groupId>
                 <artifactId>kt-component-logger-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.kt</groupId>
-                <artifactId>kt-component-demo-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.kt.logger</groupId>
+                <artifactId>kt-component-logger-core</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <!-- 日志组件 -->
+
+            <!-- 异常组件 -->
+            <dependency>
+                <groupId>com.kt.exception</groupId>
+                <artifactId>kt-component-exception-core</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.kt.exception</groupId>
                 <artifactId>kt-component-exception-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
+            <!-- 异常组件 -->
+
+            <!-- 通用工具组件 -->
             <dependency>
                 <groupId>com.kt.common</groupId>
                 <artifactId>kt-component-common-spring-boot-starter</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>${kt.component.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.kt.common</groupId>
                 <artifactId>kt-component-common-core</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>${kt.component.version}</version>
             </dependency>
+            <!-- 通用工具组件 -->
+
+            <!-- Web服务组件-->
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.kt.web</groupId>
                 <artifactId>kt-component-web-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.kt.web</groupId>
+                <artifactId>kt-component-web-core</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <!-- Web服务组件-->
+
+            <!-- ORM组件 -->
             <dependency>
                 <groupId>com.kt.orm</groupId>
                 <artifactId>kt-component-orm-mybatis-spring-boot-starter</artifactId>
@@ -277,7 +302,10 @@
                 <artifactId>kt-component-orm-mybatis</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+            <!-- ORM组件 -->
 
+
+            <!-- 缓存 -->
             <dependency>
                 <groupId>com.kt.cache</groupId>
                 <artifactId>kt-component-cache-redis-spring-boot-starter</artifactId>
@@ -289,7 +317,9 @@
                 <artifactId>kt-component-cache-redis</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+            <!-- 缓存 -->
 
+            <!-- 上下文 -->
             <dependency>
                 <groupId>com.kt.context</groupId>
                 <artifactId>kt-component-context-spring-boot-starter</artifactId>
@@ -301,12 +331,10 @@
                 <artifactId>kt-component-context-core</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
+            <!-- 上下文 -->
 
-            <dependency>
-                <groupId>com.squareup.retrofit2</groupId>
-                <artifactId>retrofit</artifactId>
-                <version>2.9.0</version>
-            </dependency>
+            <!-- components -->
+
 
         </dependencies>
     </dependencyManagement>
