@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kt</groupId>
+    <groupId>com.kt.boot</groupId>
     <artifactId>kt-dependencies</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -218,16 +218,20 @@
                 <artifactId>kt-component-sharding-jdbc-spring-boot-starter</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+
+            <!-- 微服务组件 -->
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.kt.microservice</groupId>
                 <artifactId>kt-component-microservice-core</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.kt.microservice</groupId>
                 <artifactId>kt-component-microservice-rpc-feign</artifactId>
                 <version>${kt.component.version}</version>
             </dependency>
+            <!-- 微服务组件 -->
+
 
             <!-- 校验组件 -->
             <dependency>
