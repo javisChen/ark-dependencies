@@ -232,7 +232,6 @@
             </dependency>
             <!-- 微服务组件 -->
 
-
             <!-- 校验组件 -->
             <dependency>
                 <groupId>com.kt.validator</groupId>
@@ -240,6 +239,19 @@
                 <version>${kt.component.version}</version>
             </dependency>
             <!-- 校验组件 -->
+
+            <!-- 状态机 -->
+            <dependency>
+                <groupId>com.kt.statemachine</groupId>
+                <artifactId>kt-component-statemachine-core</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.kt.statemachine</groupId>
+                <artifactId>kt-component-statemachine-spring-boot-starter</artifactId>
+                <version>${kt.component.version}</version>
+            </dependency>
+            <!-- 状态机 -->
 
             <!-- 日志组件 -->
             <dependency>
