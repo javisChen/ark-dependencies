@@ -19,7 +19,7 @@
     <properties>
         <kt.component.version>1.0.0-SNAPSHOT</kt.component.version>
         <fastjson.version>1.2.76</fastjson.version>
-        <mybatisplus.version>3.4.3.4</mybatisplus.version>
+        <mybatisplus.version>3.5.1</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
         <p6spy.version>3.8.1</p6spy.version>
         <druid.version>1.2.8</druid.version>
