@@ -32,10 +32,10 @@
 
         <!-- SpringCloud -->
         <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
-        <spring.cloud.alibaba.version>2.2.7.RELEASE</spring.cloud.alibaba.version>
+        <spring.cloud.alibaba.version>2.2.8.RELEASE</spring.cloud.alibaba.version>
         <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
 
-        <!-- mq -->
+        <!-- MQ -->
         <rocketmq-spring-boot-starter.version>2.2.1</rocketmq-spring-boot-starter.version>
 
         <maven-url></maven-url>
