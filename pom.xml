@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kt.boot</groupId>
-    <artifactId>kt-dependencies</artifactId>
+    <groupId>com.ark.boot</groupId>
+    <artifactId>ark-dependencies</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -332,6 +332,21 @@
                 <version>${kt.component.version}</version>
             </dependency>
             <!-- 缓存 -->
+
+            <!-- 上下文 -->
+            <dependency>
+                <groupId>com.kt.context</groupId>
+                <artifactId>kt-component-context-spring-boot-starter</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.kt.context</groupId>
+                <artifactId>kt-component-context-core</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <!-- 上下文 -->
+
 
             <!-- 上下文 -->
             <dependency>
