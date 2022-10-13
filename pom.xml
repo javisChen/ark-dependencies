@@ -173,7 +173,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.ark</groupId>
                 <artifactId>ark-component-config</artifactId>
                 <version>${ark.component.version}</version>
             </dependency>
@@ -212,7 +212,7 @@
             <!-- oss -->
 
             <dependency>
-                <groupId>com.kt</groupId>
+                <groupId>com.ark</groupId>
                 <artifactId>ark-component-sharding-jdbc-spring-boot-starter</artifactId>
                 <version>${ark.component.version}</version>
             </dependency>
