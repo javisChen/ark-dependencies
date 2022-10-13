@@ -17,7 +17,7 @@
     </developers>
 
     <properties>
-        <kt.component.version>1.0.0-SNAPSHOT</kt.component.version>
+        <ark.component.version>1.0.0-SNAPSHOT</ark.component.version>
         <fastjson.version>1.2.76</fastjson.version>
         <mybatisplus.version>3.5.1</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
@@ -39,8 +39,8 @@
         <rocketmq-spring-boot-starter.version>2.2.1</rocketmq-spring-boot-starter.version>
 
         <maven-url></maven-url>
-        <snapshots-url>${maven-url}sr-kt-snapshots/</snapshots-url>
-        <releases-url>${maven-url}sr-kt-releases/</releases-url>
+        <snapshots-url>${maven-url}sr-ark-snapshots/</snapshots-url>
+        <releases-url>${maven-url}sr-ark-releases/</releases-url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -167,182 +167,182 @@
 
             <!-- components -->
             <dependency>
-                <groupId>com.kt.dto</groupId>
-                <artifactId>kt-component-dto</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.dto</groupId>
+                <artifactId>ark-component-dto</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kt</groupId>
-                <artifactId>kt-component-config</artifactId>
-                <version>${kt.component.version}</version>
+                <artifactId>ark-component-config</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
 
             <!-- oss -->
             <dependency>
-                <groupId>com.kt.oss</groupId>
-                <artifactId>kt-component-oss</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.oss</groupId>
+                <artifactId>ark-component-oss</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.oss</groupId>
-                <artifactId>kt-component-oss-api</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.oss</groupId>
+                <artifactId>ark-component-oss-api</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.oss</groupId>
-                <artifactId>kt-component-oss-aliyun</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.oss</groupId>
+                <artifactId>ark-component-oss-aliyun</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.oss</groupId>
-                <artifactId>kt-component-oss-minio</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.oss</groupId>
+                <artifactId>ark-component-oss-minio</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.oss</groupId>
-                <artifactId>kt-component-oss-aliyun-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.oss</groupId>
+                <artifactId>ark-component-oss-aliyun-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.oss</groupId>
-                <artifactId>kt-component-oss-minio-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.oss</groupId>
+                <artifactId>ark-component-oss-minio-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- oss -->
 
             <dependency>
                 <groupId>com.kt</groupId>
-                <artifactId>kt-component-sharding-jdbc-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <artifactId>ark-component-sharding-jdbc-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
 
             <!-- 微服务组件 -->
             <dependency>
-                <groupId>com.kt.microservice</groupId>
-                <artifactId>kt-component-microservice-core</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.microservice</groupId>
+                <artifactId>ark-component-microservice-core</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.microservice</groupId>
-                <artifactId>kt-component-microservice-rpc-feign</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.microservice</groupId>
+                <artifactId>ark-component-microservice-rpc-feign</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- 微服务组件 -->
 
             <!-- 校验组件 -->
             <dependency>
-                <groupId>com.kt.validator</groupId>
-                <artifactId>kt-component-validator</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.validator</groupId>
+                <artifactId>ark-component-validator</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- 校验组件 -->
 
             <!-- 状态机 -->
             <dependency>
-                <groupId>com.kt.statemachine</groupId>
-                <artifactId>kt-component-statemachine-core</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.statemachine</groupId>
+                <artifactId>ark-component-statemachine-core</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.statemachine</groupId>
-                <artifactId>kt-component-statemachine-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.statemachine</groupId>
+                <artifactId>ark-component-statemachine-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- 状态机 -->
 
             <!-- 日志组件 -->
             <dependency>
-                <groupId>com.kt.logger</groupId>
-                <artifactId>kt-component-logger-spring-boot-starter</artifactId>
+                <groupId>com.ark.logger</groupId>
+                <artifactId>ark-component-logger-spring-boot-starter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.logger</groupId>
-                <artifactId>kt-component-logger-core</artifactId>
+                <groupId>com.ark.logger</groupId>
+                <artifactId>ark-component-logger-core</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <!-- 日志组件 -->
 
             <!-- 异常组件 -->
             <dependency>
-                <groupId>com.kt.exception</groupId>
-                <artifactId>kt-component-exception-core</artifactId>
+                <groupId>com.ark.exception</groupId>
+                <artifactId>ark-component-exception-core</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.exception</groupId>
-                <artifactId>kt-component-exception-spring-boot-starter</artifactId>
+                <groupId>com.ark.exception</groupId>
+                <artifactId>ark-component-exception-spring-boot-starter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <!-- 异常组件 -->
 
             <!-- 通用工具组件 -->
             <dependency>
-                <groupId>com.kt.common</groupId>
-                <artifactId>kt-component-common-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.common</groupId>
+                <artifactId>ark-component-common-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.kt.common</groupId>
-                <artifactId>kt-component-common-core</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.common</groupId>
+                <artifactId>ark-component-common-core</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- 通用工具组件 -->
 
             <!-- Web服务组件-->
             <dependency>
-                <groupId>com.kt.web</groupId>
-                <artifactId>kt-component-web-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.web</groupId>
+                <artifactId>ark-component-web-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.kt.web</groupId>
-                <artifactId>kt-component-web-core</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.web</groupId>
+                <artifactId>ark-component-web-core</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- Web服务组件-->
 
             <!-- ORM组件 -->
             <dependency>
-                <groupId>com.kt.orm</groupId>
-                <artifactId>kt-component-orm-mybatis-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.orm</groupId>
+                <artifactId>ark-component-orm-mybatis-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.kt.orm</groupId>
-                <artifactId>kt-component-orm-mybatis</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.orm</groupId>
+                <artifactId>ark-component-orm-mybatis</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- ORM组件 -->
 
 
             <!-- 缓存 -->
             <dependency>
-                <groupId>com.kt.cache</groupId>
-                <artifactId>kt-component-cache-redis-spring-boot-starter</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.cache</groupId>
+                <artifactId>ark-component-cache-redis-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.kt.cache</groupId>
-                <artifactId>kt-component-cache-redis</artifactId>
-                <version>${kt.component.version}</version>
+                <groupId>com.ark.cache</groupId>
+                <artifactId>ark-component-cache-redis</artifactId>
+                <version>${ark.component.version}</version>
             </dependency>
             <!-- 缓存 -->
 
             <!-- 上下文 -->
             <dependency>
-                <groupId>com.kt.context</groupId>
-                <artifactId>kt-component-context-spring-boot-starter</artifactId>
+                <groupId>com.ark.context</groupId>
+                <artifactId>ark-component-context-spring-boot-starter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
-                <groupId>com.kt.context</groupId>
-                <artifactId>kt-component-context-core</artifactId>
+                <groupId>com.ark.context</groupId>
+                <artifactId>ark-component-context-core</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <!-- 上下文 -->
@@ -350,14 +350,14 @@
 
             <!-- 上下文 -->
             <dependency>
-                <groupId>com.kt.context</groupId>
-                <artifactId>kt-component-context-spring-boot-starter</artifactId>
+                <groupId>com.ark.context</groupId>
+                <artifactId>ark-component-context-spring-boot-starter</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
-                <groupId>com.kt.context</groupId>
-                <artifactId>kt-component-context-core</artifactId>
+                <groupId>com.ark.context</groupId>
+                <artifactId>ark-component-context-core</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <!-- 上下文 -->
