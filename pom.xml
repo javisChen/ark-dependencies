@@ -18,6 +18,7 @@
 
     <properties>
         <ark.component.version>1.0.0-SNAPSHOT</ark.component.version>
+        <auth0.jwt.version>4.2.1</auth0.jwt.version>
         <fastjson.version>1.2.76</fastjson.version>
         <mybatisplus.version>3.5.1</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
@@ -82,6 +83,13 @@
                 <groupId>p6spy</groupId>
                 <artifactId>p6spy</artifactId>
                 <version>${p6spy.version}</version>
+            </dependency>
+
+            <!-- jwt -->
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>${auth0.jwt.version}</version>
             </dependency>
 
             <dependency>
