@@ -241,7 +241,7 @@
             <!-- 安全组件 -->
             <dependency>
                 <groupId>com.ark.security</groupId>
-                <artifactId>ark-component-security-config</artifactId>
+                <artifactId>ark-component-security-base</artifactId>
                 <version>${ark.component.version}</version>
             </dependency>
             <dependency>
@@ -252,6 +252,11 @@
             <dependency>
                 <groupId>com.ark.security</groupId>
                 <artifactId>ark-component-security-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ark.security</groupId>
+                <artifactId>ark-component-security-reactive-spring-boot-starter</artifactId>
                 <version>${ark.component.version}</version>
             </dependency>
             <!-- 安全组件 -->
