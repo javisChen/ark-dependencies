@@ -19,7 +19,7 @@
     <properties>
         <ark.component.version>1.0.0-SNAPSHOT</ark.component.version>
         <auth0.jwt.version>4.2.1</auth0.jwt.version>
-        <fastjson.version>1.2.76</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <mybatisplus.version>3.5.1</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
         <p6spy.version>3.8.1</p6spy.version>
