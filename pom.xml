@@ -37,7 +37,7 @@
 
         <!-- SpringCloud -->
         <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
-        <spring.cloud.alibaba.version>2.2.8.RELEASE</spring.cloud.alibaba.version>
+        <spring.cloud.alibaba.version>2022.0.0.0-RC2</spring.cloud.alibaba.version>
         <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
 
         <!-- MQ -->
