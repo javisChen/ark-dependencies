@@ -20,12 +20,12 @@
         <ark.component.version>1.0.0-SNAPSHOT</ark.component.version>
         <auth0.jwt.version>4.2.1</auth0.jwt.version>
         <fastjson.version>1.2.83</fastjson.version>
-        <mybatisplus.version>3.5.1</mybatisplus.version>
+        <mybatisplus.version>3.5.3.1</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
         <p6spy.version>3.8.1</p6spy.version>
         <druid.version>1.2.8</druid.version>
         <easyexcel.version>3.0.5</easyexcel.version>
-        <hutool.version>5.7.18</hutool.version>
+        <hutool.version>5.8.11</hutool.version>
         <cglib.version>3.3.0</cglib.version>
         <junit.version>4.12</junit.version>
         <okhttp3.version>4.9.2</okhttp3.version>
@@ -33,22 +33,21 @@
 
         <!-- mapstruct -->
         <mapstruct.version>1.5.3.Final</mapstruct.version>
-        <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
+        <lombok.mapstruct.binding.version>0.2.0</lombok.mapstruct.binding.version>
 
         <!-- SpringCloud -->
-        <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
+        <spring.boot.version>3.0.6</spring.boot.version>
         <spring.cloud.alibaba.version>2022.0.0.0-RC2</spring.cloud.alibaba.version>
-        <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
+        <spring.cloud.version>2022.0.2</spring.cloud.version>
 
         <!-- MQ -->
-        <rocketmq-spring-boot-starter.version>2.2.1</rocketmq-spring-boot-starter.version>
+        <rocketmq.spring.boot.starter.version>2.2.1</rocketmq.spring.boot.starter.version>
 
-        <maven-url></maven-url>
         <snapshots-url>${maven-url}sr-ark-snapshots/</snapshots-url>
         <releases-url>${maven-url}sr-ark-releases/</releases-url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencyManagement>
@@ -56,7 +55,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
+                <version>${spring.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -64,7 +63,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
+                <version>${spring.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -80,7 +79,7 @@
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-spring-boot-starter</artifactId>
-                <version>${rocketmq-spring-boot-starter.version}</version>
+                <version>${rocketmq.spring.boot.starter.version}</version>
             </dependency>
 
             <dependency>
@@ -93,7 +92,7 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok-mapstruct-binding</artifactId>
-                <version>${lombok-mapstruct-binding.version}</version>
+                <version>${lombok.mapstruct.binding.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mapstruct</groupId>
@@ -114,10 +113,11 @@
                 <version>${auth0.jwt.version}</version>
             </dependency>
 
+            <!-- snakeyaml -->
             <dependency>
-                <groupId>javax.validation</groupId>
-                <artifactId>validation-api</artifactId>
-                <version>${validation.api.version}</version>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>2.0</version>
             </dependency>
 
             <!-- okhttp3 -->
