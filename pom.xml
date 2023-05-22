@@ -23,8 +23,8 @@
         <mybatisplus.version>3.5.3.1</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
         <p6spy.version>3.8.1</p6spy.version>
-        <druid.version>1.2.8</druid.version>
-        <easyexcel.version>3.0.5</easyexcel.version>
+        <druid.version>1.2.18</druid.version>
+        <easyexcel.version>3.3.1</easyexcel.version>
         <hutool.version>5.8.11</hutool.version>
         <cglib.version>3.3.0</cglib.version>
         <junit.version>4.12</junit.version>
@@ -186,6 +186,11 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-3-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
 
