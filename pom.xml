@@ -226,6 +226,22 @@
                 <artifactId>ark-component-mq-integration-spring-boot-starter</artifactId>
                 <version>${ark.component.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.ark.mq</groupId>
+                <artifactId>ark-component-mq-rocketmq-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ark.mq</groupId>
+                <artifactId>ark-component-mq-rabbitmq-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ark.mq</groupId>
+                <artifactId>ark-component-mq-kafka-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
+            </dependency>
             <!-- MQ -->
 
             <!-- oss -->
