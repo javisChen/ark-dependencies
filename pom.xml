@@ -220,11 +220,13 @@
                 <version>${ark.component.version}</version>
             </dependency>
 
+            <!-- MQ -->
             <dependency>
-                <groupId>com.ark</groupId>
-                <artifactId>ark-component-config</artifactId>
+                <groupId>com.ark.mq</groupId>
+                <artifactId>ark-component-mq-integration-spring-boot-starter</artifactId>
                 <version>${ark.component.version}</version>
             </dependency>
+            <!-- MQ -->
 
             <!-- oss -->
             <dependency>
