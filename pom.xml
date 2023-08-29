@@ -44,8 +44,8 @@
         <!-- MQ -->
         <rocketmq.spring.boot.starter.version>2.2.1</rocketmq.spring.boot.starter.version>
 
-        <snapshots-url>${maven-url}sr-ark-snapshots/</snapshots-url>
-        <releases-url>${maven-url}sr-ark-releases/</releases-url>
+<!--        <snapshots-url>${maven-url}sr-ark-snapshots/</snapshots-url>-->
+<!--        <releases-url>${maven-url}sr-ark-releases/</releases-url>-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
