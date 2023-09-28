@@ -244,6 +244,15 @@
             </dependency>
             <!-- MQ -->
 
+            <!-- ES -->
+            <dependency>
+                <groupId>com.ark.search</groupId>
+                <artifactId>ark-component-search-es-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
+            </dependency>
+
+            <!-- MQ -->
+
             <!-- oss -->
             <dependency>
                 <groupId>com.ark.oss</groupId>
