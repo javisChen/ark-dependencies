@@ -21,7 +21,7 @@
         <auth0.jwt.version>4.2.1</auth0.jwt.version>
         <fastjson.version>1.2.83</fastjson.version>
         <fastjson2.version>2.0.39</fastjson2.version>
-        <mybatisplus.version>3.5.3.1</mybatisplus.version>
+        <mybatisplus.version>3.5.5</mybatisplus.version>
         <mybatisplus.generator.version>3.5.1</mybatisplus.generator.version>
         <p6spy.version>3.8.1</p6spy.version>
         <druid.version>1.2.18</druid.version>
