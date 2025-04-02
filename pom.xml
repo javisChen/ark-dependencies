@@ -448,6 +448,20 @@
             </dependency>
             <!-- 缓存 -->
 
+            <!-- 分布式锁 -->
+            <dependency>
+                <groupId>com.ark.lock</groupId>
+                <artifactId>ark-component-lock-redis-spring-boot-starter</artifactId>
+                <version>${ark.component.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ark.lock</groupId>
+                <artifactId>ark-component-lock-redis</artifactId>
+                <version>${ark.component.version}</version>
+            </dependency>
+            <!-- 分布式锁 -->
+
             <!-- 上下文 -->
             <dependency>
                 <groupId>com.ark.context</groupId>
